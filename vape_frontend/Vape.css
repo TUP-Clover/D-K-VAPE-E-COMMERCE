@@ -1,0 +1,530 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.announcement-bar {
+    width: 100%;
+    height: 20px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.911);
+}
+
+.announcement-content {
+    display: inline-block;
+    animation: scroll 30s linear infinite;
+}
+
+.announcement-content span {
+    margin-right: 40rem;
+    font-size: 12px;
+    font-weight: 800;
+    color: whitesmoke;
+
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+/*--------------------------- Vape_Home----------------------------*/
+#Vape_Home {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.506), rgba(0, 0, 0, 0.5)), url(../components/images/vapebg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.Vape_navbar ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 8rem;
+    background-color: rgba(0, 0, 0, 0.732);
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.Vape_navbar li {
+    height: 2rem;
+
+}
+
+.Vape_navbar a {
+    height: 100%;
+    display: flex;
+    text-decoration: none;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: 600;
+    width: 7rem;
+    position: sticky;
+    top: 0;
+
+}
+
+.vape-hub-logo img {
+    background-color: none;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    height: 7rem;
+    box-sizing: unset;
+    margin-left: 2rem;
+
+}
+
+.Vape_navbar .vape_logo_title h1 {
+    color: rgb(251, 250, 250);
+    font-size: 30px;
+    text-align: center;
+    margin-right: 25rem;
+    width: 12rem;
+    text-shadow: 2px 10px 4px rgb(0, 0, 0);
+    border-radius: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Vape_navbar .vape_logo_title span {
+    color: rgb(248, 246, 246);
+    font-size: 15px;
+    text-align: center;
+    margin-left: 3.5rem;
+    width: 12rem;
+    text-shadow: 2px 2px 5px black;
+    border-radius: 5px;
+    font-weight: 800;
+    text-shadow: 3px 10px 4px rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace
+}
+
+.Vape_navbar .vape_title h1 {
+    color: whitesmoke;
+    display: flex;
+    text-align: center;
+    width: 10rem;
+    margin-right: 1rem;
+    font-weight: 800;
+    text-shadow: 2px 2px 20px solid rgb(208, 200, 200);
+    box-shadow: 0px 6px 50px rgba(7, 7, 7, 0.537);
+    border-radius: 5rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.navbar {
+    text-shadow: 1px 1px 1px solid black;
+
+}
+
+.navbar li {
+    margin-right: 1rem;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    position: relative;
+    font-size: 17px;
+    transition: all 250ms;
+    overflow: hidden;
+}
+
+.Vape_aboutUS {
+    margin: 5rem 50rem 0 7rem;
+    text-shadow: 2px 2px 2px black;
+}
+
+.who_title {
+    color: whitesmoke;
+    margin-top: 3rem;
+    margin-left: 11rem;
+    margin-bottom: -1rem;
+    padding-top: 6rem;
+    text-shadow: 2px 3px 1px rgba(197, 196, 196, 0.469);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.who_content {
+    width: 50vw;
+    height: 13.5rem;
+}
+
+.who_content p {
+    color: white;
+    font-size: 14px;
+    padding: 1.5rem;
+    margin-left: 5rem;
+    text-align: justify;
+    width: 30rem;
+    height: 10rem;
+    border-radius: 2rem;
+    box-shadow: 4px 100px 100px rgb(202, 201, 201);
+    background-color: rgba(41, 41, 41, 0.236);
+    font-family: 'Nunito', sans-serif;
+}
+
+/* right section home page*/
+
+.Vape_aboutUS_right {
+    margin-top: -20rem;
+    margin-left: 45rem;
+}
+
+.right_container {
+    width: 36rem;
+    height: 25rem;
+    margin-left: 0.5rem;
+    border-radius: 4rem;
+    box-shadow: 2px 2px 10px rgb(121, 119, 119);
+    background-color: rgba(0, 0, 0, 0.822);
+    overflow: hidden;
+}
+
+.right_content {
+    color: rgb(251, 244, 244);
+    margin-left: 10rem;
+    font-size: 25px;
+    text-shadow: 5px 10px 15px rgba(232, 227, 227, 0.286);
+}
+
+.vape_products_pic img {
+    width: 36rem;
+}
+
+/*Button css*/
+.products_button {
+    background-color: #000000;
+    margin-left: 12.5rem;
+    margin-bottom: 4rem;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: 800;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgb(255, 255, 255);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.products_button:hover {
+    background-color: #0f0f0ffc;
+
+}
+
+.hover-underline-animation {
+    position: relative;
+
+    &:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        bottom: 0;
+        left: 0;
+        background-color: #0606ff;
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: all 0.3s ease-in-out 0s;
+    }
+
+    &:hover:before {
+        visibility: visible;
+        transform: scaleX(1);
+    }
+}
+
+/*--------------------------- Vape_Featured -----------------------------*/
+
+.Vape_Featured {
+    width: 100%;
+
+}
+
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.carousel {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+
+.slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+    transition-delay: 200ms;
+
+}
+
+
+.slide img {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    object-fit: fill;
+}
+
+.carousel ul {
+    border: 4rem;
+    padding: 0;
+    list-style: none;
+}
+
+.slide[data-active] {
+    opacity: 1;
+    z-index: 1;
+    transition-delay: 0;
+}
+
+.carousel button {
+    position: absolute;
+    background: none;
+    z-index: 2;
+    border: none;
+    font-size: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(244, 231, 231);
+    border-radius: 2rem;
+    padding: 0 .5rem;
+    background-color: #00000084;
+    cursor: pointer;
+}
+
+
+.carousel button:hover,
+.carousel button:focus {
+    color: #fff;
+    background-color: #000000;
+}
+
+.carousel button:focus {
+    outline: 1px solid black;
+}
+
+.carousel-button.next {
+    left: 80.7rem;
+    position: absolute;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.text-inside {
+    position: absolute;
+    z-index: 3;
+    height: 90vh;
+    width: 100%;
+    margin: 2rem;
+    margin-left: 4rem;
+    border-radius: 10px;
+
+}
+
+.text-inside h1 {
+    color: rgb(255, 253, 253);
+    font-size: 2.5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-shadow: 4px 4px 50px rgba(16, 16, 16, 0.671);
+    font-weight: 800;
+    font-family: 'Lora', serif;
+}
+
+.text-inside p {
+    color: whitesmoke;
+    margin-top: 1.75rem;
+    margin-left: 1rem;
+    font-size: 17px;
+    height: 70vh;
+    width: 30%;
+    font-weight: bold;
+    text-shadow: 4px 4px 50px black;
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+.text-inside .get-now-btn {
+    color: #ffffff;
+    z-index: 999;
+    position: absolute;
+    text-decoration: none;
+    font-size: 23px;
+    cursor: pointer;
+    margin-top: 11rem;
+    margin-left: 67rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 40px whitesmoke;
+    background-color: #0a0808;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: #18f02a;
+    }
+}
+
+
+.Top_products {
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.Top_products .top {
+    font-weight: 700;
+    font-family: 'Lora', 'serif';
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 3rem;
+
+}
+
+.Top_products .container-wrapper {
+    display: flex;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    margin: 5rem;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 20vw;
+    height: 50vh;
+    transition: .5s ease;
+    border: 10px solid black;
+    box-shadow: 10px 10px 10px black;
+    overflow: hidden;
+}
+
+.image2 {
+    opacity: 1;
+    display: block;
+    width: 20vw;
+    height: 50vh;
+    transition: .5s ease;
+    border: 10px solid black;
+    box-shadow: 10px 10px 10px black;
+    overflow: hidden;
+}
+
+.image3 {
+    opacity: 1;
+    display: block;
+    width: 20vw;
+    height: 50vh;
+    transition: .5s ease;
+    border: 10px solid rgb(0, 0, 0);
+    box-shadow: 10px 10px 10px rgb(26, 25, 25);
+    overflow: hidden;
+}
+
+.middle {
+    transition: .9s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container:hover .image,
+.container:hover .image2,
+.container:hover .image3 {
+    opacity: 0.5;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: #131313;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+
+/*--------------------------- Contacts-----------------------------*/
+
+.Contacts_container {
+    width: 100%;
+    height: 23vh;
+    background: linear-gradient(rgb(10, 10, 10), rgba(0, 0, 0, 0.5)), url(./images/footer_img.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.Contacts_logo {
+    background-color: #3333330c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Contacts_logo a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    margin-top: 1rem;
+}
+
+.Contacts_logo a:hover {
+    text-decoration: underline;
+}
+
+.Contacts_logo p {
+    margin: 5px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons img {
+    color: white;
+    width: 40px;
+    height: 30px;
+    margin: 0 5px;
+}

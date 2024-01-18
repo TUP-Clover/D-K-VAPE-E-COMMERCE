@@ -1,0 +1,120 @@
+/* Style for the custom product modal */
+.product-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+  
+  /* Style for the modal content */
+  .modal-content {
+    background: white;
+    padding: 28px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 35px #8f8e8d;
+    text-align: center;
+    width: 30%;
+    height: 83vh;
+  }
+
+  .modal-content button{
+    margin-right: 16px;
+    border-radius: 7px;
+    color: black;
+    box-shadow: 1px 1px 1px;
+    background-color: lightgray;
+    padding: 6px 6px;
+    cursor: pointer;
+    margin-top: 4px;
+    margin-left: 0px;
+  }
+  
+  /* Style for the product details section */
+  .product-details {
+    display: flex;
+  }
+  
+  /* Style for the product image */
+  .product-image {
+    margin-top: 21px;
+    max-width: 30%;
+    margin-right: 12px;
+    border-radius: 1rem;
+  }
+  
+  .product-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 16px;
+  }
+
+  .flavor{
+    color: rgb(0, 0, 0);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 2rem;
+    font-weight: 900;
+    font-size: 15px;
+    text-shadow: -1px -1px 0 rgb(251, 247, 247), 1px -1px 0 rgb(255, 251, 251), -1px 1px 0 rgb(235, 227, 227), 1px 1px 0 rgb(247, 244, 244);
+  }
+  
+  /* Style for the product info section */
+  .product-info {
+    margin-top: 12px;
+  }
+  
+  /* Style for form elements */
+  form {
+    text-align: left;
+    font-size: 15px;
+  }
+  
+  form label {
+    font-weight: 700;
+    font-size: 13px;
+    display: block;
+    margin-bottom: 0px;
+  }
+  
+  form input {
+    padding: 7px;
+    margin-bottom: 6px;
+    height: 7px;
+    box-shadow: 3px 3px 2px;
+    width: 23rem;
+  }
+  
+  .btn-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Style for box title inside modal */
+  .box-title_modal {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 6px;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for box description inside modal */
+  .box-description_modal {
+    font-weight: 800;
+    font-size: 12px;
+    text-align: left;
+  }
+  
+  /* Style for box price inside modal */
+  .box-price_modal {
+    font-size: 1.2rem;
+    color: #4caf50; /* Green color for price */
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  

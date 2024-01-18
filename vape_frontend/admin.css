@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.admin-container {
+    max-width: 1200px;
+    height: 67vh;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#productTable th,
+td {
+    border: 1px solid #ddd;
+    font-size: 12px;
+}
+
+th,
+td {
+    padding: 11px;
+    text-align: center;
+}
+
+#productTable th {
+    background-color: #333;
+    color: #fff;
+}
+
+.product-img {
+    width: 80%;
+    height: 3rem;
+}
+
+.nav-btn {
+    width: 25%;
+    display: flex;
+}
+
+.nav-btn button {
+    box-shadow: 3px -2px 2px white;
+    background: transparent;
+    padding: 8px;
+    margin: 8px;
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 12px;
+}
+
+button {
+    padding: 8px;
+    margin: 8px;
+    cursor: pointer;
+    font-size: 12px;
+
+}
+
+#productTable {
+    margin-bottom: 40px;
+
+}
+
+
+.ReactModal__Overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent !important;
+}
+
+.ReactModal__Content {
+    max-width: 40rem;
+    max-height: 31rem;
+    margin-left: 17rem;
+}
+
+.vape_logo_title_admin h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.create-prod-modal-content {
+    max-width: 80vw;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-prod-modal-content h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.create-prod-modal-content form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.create-prod-modal-content .image-label {
+    flex-basis: 100%;
+    margin-bottom: 10px;
+}
+
+.create-prod-modal-content .image-label input {
+    width: 39%;
+    height: 2rem;
+}
+
+.create-prod-modal-content label {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.create-prod-modal-content input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.create-prod-modal-content button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.create-prod-modal-content button:hover {
+    background-color: #45a049;
+}
+
+.vape-container {
+    height: 57vh;
+}
